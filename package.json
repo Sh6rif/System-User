@@ -14,8 +14,10 @@
     "connect-livereload": "^0.6.1",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
     "livereload": "^0.9.3",
     "mongoose": "^8.3.3",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.0"
   }
 }

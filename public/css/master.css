@@ -1,0 +1,77 @@
+.bi-lightning-charge::before {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  transition: 1s;
+}
+.bi-arrow-left::before {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+.bi-arrow-left-circle,
+.bi-arrow-right-circle {
+  font-size: 1.2rem;
+}
+.position-absolute {
+  right: 10px;
+  top: 2px;
+}
+.sidebar {
+  width: 280px;
+  transition: 0.4s;
+}
+.sidebar-small {
+  width: 77px;
+  text-align: center;
+}
+.sidebar-small .bi-small::before {
+  margin-right: 0rem;
+}
+.sidebar-small .position-absolute {
+  right: 16px;
+}
+.sidebar-small .bi-arrow-left-circle::before {
+  content: "\F134";
+}
+.sidebar-small .bi-lightning-charge::before {
+  margin-top: 2.5rem;
+}
+.sidebar-small .lightning::before {
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+.sidebar-small .sidebar-text {
+  display: none;
+}
+@media (min-width: 576px) {
+  .b-example-vr {
+    width: 1.5rem !important;
+    height: 100vh !important;
+  }
+}
+@media (max-width: 576px) {
+  .position-relative {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar-small .bi-lightning-charge::before {
+    margin-top: 0 !important;
+  }
+  .lightningSide {
+    margin-bottom: 0 !important;
+  }
+  .b-example-vr {
+    height: 1rem !important;
+  }
+  .sidebar {
+    width: 100% !important;
+  }
+  .position-absolute {
+    display: none !important;
+  }
+  .sideContent {
+    flex-direction: row !important;
+  }
+  .sidebar-text {
+    display: none;
+  }
+}
